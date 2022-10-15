@@ -43,14 +43,5 @@ document.addEventListener("DOMContentLoaded",function()
 })
 
 // finalize conditional statement
-
-function Winner(plays)
-{    
-    console.log(plays);
-    return winningCombinations.some(winCombo => {  
-        return winCombo.every(pos =>{  
-            return plays.includes(pos); 
-                
-        })       
-    }) 
+ 
 }
